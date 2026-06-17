@@ -1,0 +1,39 @@
+{
+  "name": "vehicle-info-tracker",
+  "version": "1.0.0",
+  "description": "A beautiful matrix-themed vehicle information extraction tool - Built by Ahir Ankush",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel deploy"
+  },
+  "keywords": [
+    "vehicle",
+    "information",
+    "tracker",
+    "matrix",
+    "cyberpunk",
+    "registration",
+    "api",
+    "india",
+    "ahir-ankush"
+  ],
+  "author": {
+    "name": "Ahir Ankush",
+    "url": "https://github.com/ahirankush771"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahirankush771/Vehicle_info"
+  },
+  "homepage": "https://github.com/ahirankush771/Vehicle_info",
+  "bugs": {
+    "url": "https://github.com/ahirankush771/Vehicle_info/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

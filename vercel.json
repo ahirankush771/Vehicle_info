@@ -1,0 +1,24 @@
+{
+  "name": "vehicle-info-tracker-by-ahir",
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.html"
+    }
+  ],
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "env": {
+    "API_URL": "https://vehicle-info-api-acko.vercel.app"
+  }
+}
